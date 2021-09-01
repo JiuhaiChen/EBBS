@@ -11,4 +11,4 @@ Then run the command:
 python run.py   --datasets  your_datasets   --task regression   --X_lam 20.0 --X_step 5  --y_lam 2.0 --y_step 5  --lr 0.1    --label_smooth  --error_smooth
 
 
-(Very simple example on our dataset House: zip the datasets and then run python run.py   --datasets  house   --task regression   --X_lam 20.0 --X_step 5  --y_lam 2.0 --y_step 5  --lr 0.1    --label_smooth  --error_smooth)
+(Very simple example on our dataset House: **zip datasets** and then run **python run.py   --datasets  house   --task regression   --X_lam 20.0 --X_step 5  --y_lam 2.0 --y_step 5  --lr 0.1    --label_smooth  --error_smooth**)
