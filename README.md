@@ -1,3 +1,4 @@
+## AG+ ##
 To run the code on your dataset, it's necessary to prepare the files in the right format.
 
 If you are already familiary with running autogluon for node classification, i recommend you to start from AG.py
@@ -12,7 +13,7 @@ To implement the code  **python AG.py**
 
 
 
-
+## EBBS ##
 
 
 There should be at least X.csv (node features), y.csv (target labels), graph.graphml (graph in graphml format).
