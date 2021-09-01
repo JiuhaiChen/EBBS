@@ -1,6 +1,4 @@
 ## AG+ ##
-To run the code on your dataset, it's necessary to prepare the files in the right format.
-
 If you are already familiary with running autogluon for node classification, i recommend you to start from AG.py
 
 You need to prepare your dataset, including  graph, labels, train_idx, val_idx, test_idx **(you can refer to Line 227 to Line 230, downloading OGB-arxiv dataset)**
