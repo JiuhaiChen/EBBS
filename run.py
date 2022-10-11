@@ -89,7 +89,8 @@ def load_dataset(dataset):
 class RunModel:
     def load_graph_x_target(self, data_name, seed):
         # Load data
-        input_folder = Path(__file__).parent.parent / "datasets" / data_name
+        # input_folder = Path(__file__).parent.parent / "datasets" / data_name
+        input_folder = Path(__file__).parent / "datasets" / data_name
         self.X = pd.read_csv(f"{input_folder}/X.csv")
         self.y = pd.read_csv(f"{input_folder}/y.csv")
  
